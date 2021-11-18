@@ -4,6 +4,9 @@ version: 0.2.3
 author: "fuyumi <fnatic.roach@gmail.com>"
 homepage: https://github.com/mchome/flutter_statusbarcolor
 
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
@@ -12,7 +15,3 @@ flutter:
   plugin:
     androidPackage: com.fuyumi.flutterstatusbarcolor.flutterstatusbarcolor
     pluginClass: FlutterStatusbarcolorPlugin
-
-environment:
-  sdk: ">=2.0.0-dev.28.0 <3.0.0"
-  flutter: ">=0.1.4 <2.0.0"
